@@ -1,31 +1,30 @@
-# SvelteKit Markdown Blog
-
-Learn how to build a blazingly fast and extendable SvelteKit Markdown blog for poets.
-
-## Post
-
-✍️ https://joyofcode.xyz/sveltekit-markdown-blog
-
-## Remote Development
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/joysofcode/sveltekit-markdown-blog)
+# SvelteKit Markdown Blog with Tina CMS
 
 ## Local Development
 
 ### 🧑‍🤝‍🧑 Clone the project
 
 ```sh
-https://github.com/joysofcode/sveltekit-markdown-blog.git
+git clone url
 ```
 
 ### 📦️ Install dependencies
 
 ```sh
-pnpm i
+yarn dev
 ```
 
 ### 💿️ Run the development server
 
 ```sh
-pnpm run dev
+yarn tinacms dev -c "yarn dev"
+```
+
+#### Open admin tina
+
+```sh
+🦙 Tina Config                                                          │
+│     CMS:                <your-dev-server-url>/admin/index.html           │
+│     API playground:     <your-dev-server-url>/admin/index.html#/graphql  │
+│     API url:            http://localhost:4001/graphql
 ```
