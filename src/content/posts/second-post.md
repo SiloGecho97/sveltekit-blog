@@ -9,7 +9,7 @@ published: true
 ---
 
 <script>
-  import Counter from './counter.svelte'
+  // import Counter from './counter.svelte'
 </script>
 
 ## Svelte
@@ -20,4 +20,4 @@ Media inside the **static** folder is served from `/`.
 
 ## Counter
 
-<Counter />
+<!-- <Counter /> -->
